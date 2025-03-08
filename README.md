@@ -40,6 +40,8 @@ For the next **100 days**, I will:
 - ✅ Day 1 - Basic Gates
 - ✅ Day 2 - Multiplexers
 - ⏳ Day 3 - Flip-Flops
+- ✅ Day 5 - **Project Day**
+- ✅ Day 10 - **Problem Statement from Product-Based Company**
 - ...
 
 ## 🤝 Contributing
