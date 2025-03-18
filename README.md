@@ -5,7 +5,7 @@ Welcome to my **100 Days of Verilog Challenge!** This repository contains my dai
 ## 🛠 Tools & Setup
 - **Hardware Description Language:** Verilog
 - **Simulation & Synthesis Tool:** Cadence Virtuoso
-- **Operating System:** Linux (Recommended)
+- **Operating System:** Linux 
 
 ## 📅 Challenge Overview
 For the next **100 days**, I will:
@@ -14,16 +14,8 @@ For the next **100 days**, I will:
 - Document my learnings, issues, and solutions.
 
 ## 📂 Repository Structure
-```
-📂 100-days-of-verilog
-│── 📁 Day01
-│   ├── design.v      # Verilog Design
-│   ├── testbench.v   # Testbench
-│   ├── results.log   # Simulation Results
-│── 📁 Day02
-│── 📁 ...
-│── README.md        # This file
-```
+📂 100-days-of-verilog │── 📁 Day01 │ ├── design.v # Verilog Design │ ├── testbench.v # Testbench │ ├── results.log # Simulation Results │── 📁 Day02 │── 📁 ... │── README.md 
+
 
 ## 🏁 Goals
 - Improve proficiency in **Verilog HDL**.
@@ -52,3 +44,4 @@ Feel free to suggest improvements or share your own **Verilog challenges**!
 - 🔗 LinkedIn: [Dasu Koda](https://www.linkedin.com/in/dasu-koda-a9383a256/)
 
 Let's master **Verilog & Digital Design** together! 💡
+
