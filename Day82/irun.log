@@ -1,0 +1,55 @@
+irun: 10.20-s100: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+TOOL:	irun	10.20-s100: Started on Aug 19, 2025 at 21:49:40 BDT
+irun
+	counter.v
+	counter_tb.v
+	-access +rwc
+Recompiling... reason: file './counter_tb.v' is newer than expected.
+	expected: Tue Aug 19 21:31:23 2025
+	actual:   Tue Aug 19 21:48:52 2025
+file: counter_tb.v
+	module worklib.counter_test:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		counter_test
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.counter_test:v <0x61246959>
+			streams:   5, words:  3181
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           3       3
+		Scalar wires:        2       -
+		Vectored wires:      1       -
+		Always blocks:       2       2
+		Initial blocks:      1       1
+		Pseudo assignments:  2       2
+	Writing initial simulation snapshot: worklib.counter_test:v
+Loading snapshot worklib.counter_test:v .................... Done
+ncsim> source /home/buet/cadence/installs/INCISIV102/tools/inca/files/ncsimrc
+ncsim> run
+[0ns] clk=0 rst=0 count=0x0
+[5ns] clk=1 rst=0 count=0x0
+[10ns] clk=0 rst=1 count=0x0
+[15ns] clk=1 rst=1 count=0x1
+[20ns] clk=0 rst=1 count=0x1
+[25ns] clk=1 rst=1 count=0x2
+[30ns] clk=0 rst=1 count=0x2
+[35ns] clk=1 rst=1 count=0x3
+[40ns] clk=0 rst=1 count=0x3
+[45ns] clk=1 rst=1 count=0x4
+[50ns] clk=0 rst=1 count=0x4
+[55ns] clk=1 rst=1 count=0x5
+[60ns] clk=0 rst=1 count=0x5
+[65ns] clk=1 rst=1 count=0x6
+[70ns] clk=0 rst=1 count=0x6
+[75ns] clk=1 rst=1 count=0x7
+[80ns] clk=0 rst=1 count=0x7
+[85ns] clk=1 rst=1 count=0x8
+[90ns] clk=0 rst=1 count=0x8
+[95ns] clk=1 rst=1 count=0x9
