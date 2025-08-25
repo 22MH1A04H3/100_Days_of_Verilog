@@ -1,3 +1,4 @@
+//Assending_order
 module sort(
   input [31:0]a,b,c,d,e,f,
   output reg [31:0]m,n,o,p,q,r);
@@ -17,7 +18,7 @@ module sort(
         begin
           for(int j=0;j<5;j++)
             begin
-              if(mem[j]<mem[j+1])
+              if(mem[j]>mem[j+1])
                 begin
                  // reg [31:0]t;
                   t = mem[j];
