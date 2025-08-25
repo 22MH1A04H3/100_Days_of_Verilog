@@ -6,12 +6,12 @@ module tb;
   initial
     begin
       
-      a='d10;
-      b='d20;
-      c='d30;
-      d='d40;
-      e='d50;
-      f='d60;
+      a='d60;
+      b='d50;
+      c='d40;
+      d='d30;
+      e='d20;
+      f='d10;
       $display("The Input sequance : %0d %0d %0d %0d %0d %0d ",a,b,c,d,e,f);
       #10;
       
