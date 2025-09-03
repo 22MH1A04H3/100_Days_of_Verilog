@@ -26,3 +26,4 @@ output reg clean);
       
     end
 endmodule
+//https://www.edaplayground.com/x/Zu2r
